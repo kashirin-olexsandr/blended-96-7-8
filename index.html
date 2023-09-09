@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Ledger</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,108 +12,242 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="page-header">
-      <nav class="header-menu">
-        <a href="./index.html" class="header-logo"
-          ><span class="logo-span">Finance</span> Ledger</a
-        >
-        <ul class="menu-list">
-          <li class="menu-item"><a class="menu-link" href="#hero">Home</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#about">About</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#business-cases">Cases</a>
-          </li>
-          <li class="menu-item"><a class="menu-link" href="#blog">Blog</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <header></header>
     <main>
       <!-- SECTION 1 -->
-      <section id="hero">
-        <h1>The Sky is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+
+      <section id="hero" class="section-hero">
+        <div class="header-top">
+          <nav class="navi">
+            <img
+              class="logo-icon"
+              src="./images/vector/Vector.svg"
+              alt="logo-notebook"
+              width="41"
+              height="31"
+            />
+            <div class="menu">
+              <a class="logo" href="./index.html"
+                ><span class="logo-span">Finance</span> Ledger</a
+              >
+              <ul class="navi-list">
+                <li><a class="menu-link" href="#contact">Contact</a></li>
+                <li><a class="menu-link" href="#hero">Home</a></li>
+                <li><a class="menu-link" href="#about">About</a></li>
+                <li><a class="menu-link" href="#business-cases">Cases</a></li>
+                <li><a class="menu-link" href="#blog">Blog</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <h1 class="main-title">The Sky is The Limit</h1>
+        <p class="paragraph">We provide world class financial assistance</p>
+        <button type="button" class="button-top">
+          <svg
+            class="icon-top"
+            xmlns="http://www.w3.org/2000/svg"
+            width="9"
+            height="18"
+            viewBox="0 0 9 18"
+            fill="none"
+          >
+            <path
+              d="M7.88555 9.59764L3.1043 14.3789C2.77383 14.7094 2.23945 14.7094 1.9125 14.3789L1.11797 13.5844C0.7875 13.2539 0.7875 12.7195 1.11797 12.3926L4.50703 9.0035L1.11797 5.61444C0.7875 5.28397 0.7875 4.7496 1.11797 4.42264L1.90898 3.62108C2.23945 3.29061 2.77383 3.29061 3.10078 3.62108L7.88203 8.40233C8.21602 8.7328 8.21602 9.26718 7.88555 9.59764Z"
+              fill="white"
+            />
+          </svg>
+          Read More
+        </button>
       </section>
 
-      <section>
-        <img src="./images/team.jpg" alt="team" width="670" height="460" />
-        <p>What you are looking for</p>
-        <h2>We provide bespoke solutions</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button">Read More</button>
+      <!-- Section Project team -->
+
+      <section class="project-team">
+        <img
+          src="./images/team.jpg"
+          alt="team"
+          width="670"
+          height="460"
+          class="team-image"
+        />
+        <div class="team-list">
+          <p class="looking">What you are looking for</p>
+          <h2 class="title-team">We provide bespoke solutions</h2>
+          <p class="text-item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="team-button">Read More</button>
+        </div>
       </section>
+
       <!-- Bisnes Cases -->
+
       <section>
-        <p>This is what we do</p>
-        <h2>Business Cases</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/rectangle.jpg"
-              alt="rectangle"
-              width="421"
-              height="282"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-1.jpg"
-              alt="rectangle-1"
-              width="421"
-              height="282"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-2.jpg"
-              alt="rectangle-2"
-              width="421"
-              height="282"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-3.jpg"
-              alt="rectangle-3"
-              width="421"
-              height="282"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-4.jpg"
-              alt="rectangle-4"
-              width="421"
-              height="282"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-5.jpg"
-              alt="rectangle-5"
-              width="421"
-              height="282"
-            />
-          </li>
-        </ul>
+        <div class="container cases-box">
+          <p class="cases">This is what we do</p>
+          <h2 class="cases-title">Business Cases</h2>
+          <p class="paragraph-cases">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="cases-list">
+            <li>
+              <img
+                src="./images/rectangle.jpg"
+                alt="rectangle"
+                width="421"
+                height="282"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/rectangle-1.jpg"
+                alt="rectangle-1"
+                width="421"
+                height="282"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/rectangle-2.jpg"
+                alt="rectangle-2"
+                width="421"
+                height="282"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/rectangle-3.jpg"
+                alt="rectangle-3"
+                width="421"
+                height="282"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/rectangle-4.jpg"
+                alt="rectangle-4"
+                width="421"
+                height="282"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/rectangle-5.jpg"
+                alt="rectangle-5"
+                width="421"
+                height="282"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section Blog -->
+
+      <section class="blog">
+        <div class="blog-list">
+          <p class="looking">April 16 2020</p>
+          <h2 class="title-team">Blog Post One</h2>
+          <p class="text-item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="team-button blog-bk">
+            Read Our Blog
+          </button>
+        </div>
+        <img
+          src="./images/notebook.jpg"
+          alt="notebook"
+          width="670"
+          height="460"
+        />
+      </section>
+
+      <!-- Proffesional Team -->
+
+      <section>
+        <div class="container profi-team-box">
+          <p class="cases">Who we are</p>
+          <h2 class="cases-title">Our Professional Team</h2>
+          <p class="paragraph-cases">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="profi-team-list">
+            <li>
+              <img
+                class="profi-team-image"
+                src="./images/president.jpg"
+                alt="man-president-company"
+                width="422"
+                height="286"
+              />
+              <h3 class="name">John Doe</h3>
+              <p class="paragraph-cases">President</p>
+            </li>
+            <li>
+              <img
+                class="profi-team-image"
+                src="./images/vice-president.jpg"
+                alt="woman-vice-president-company"
+                width="422"
+                height="286"
+              />
+              <h3 class="name">Jane Doe</h3>
+              <p class="paragraph-cases">Vice President</p>
+            </li>
+            <li>
+              <img
+                class="profi-team-image"
+                src="./images/marketing.jpg"
+                alt="man-marketing-head"
+                width="422"
+                height="286"
+              />
+              <h3 class="name">Steve Smith</h3>
+              <p class="paragraph-cases">Marketing Head</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Callback -->
+
+      <section class="callback">
+        <img
+          src="./images/callback.jpg"
+          alt="man-with-laptop"
+          width="670"
+          height="454"
+        />
+        <div class="callback-box">
+          <h2 class="title-call">Request Callback</h2>
+          <form action="#">
+            <input type="text" class="word" /><br />
+
+            <input type="text" class="word" />
+          </form>
+          <button type="submit" class="button-callback">Send</button>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright &copy;2021 - FinanceLedger</p>
+    </footer>
   </body>
 </html>
